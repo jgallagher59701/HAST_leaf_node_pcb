@@ -1,0 +1,521 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 11693 8846
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7700 4600 7700 4400
+Wire Wire Line
+	6700 5200 7200 5200
+Wire Wire Line
+	7200 5200 7200 4400
+Wire Wire Line
+	7200 4400 7700 4400
+Connection ~ 7700 4400
+Wire Wire Line
+	4300 4600 4300 4700
+Wire Wire Line
+	3800 4600 4300 4600
+Connection ~ 4300 4600
+Text Label 4300 4600 0    10   ~ 0
+GND
+Wire Wire Line
+	8100 4400 8100 5000
+Wire Wire Line
+	8100 5000 7700 5000
+Wire Wire Line
+	8100 5000 8100 5100
+Connection ~ 8100 5000
+Text Label 8100 4400 0    10   ~ 0
+GND
+Wire Wire Line
+	5300 6000 5300 5800
+Wire Wire Line
+	5300 5800 5300 5600
+Wire Wire Line
+	5300 5600 5300 4000
+Wire Wire Line
+	5400 5600 5300 5600
+Wire Wire Line
+	5400 5800 5300 5800
+Wire Wire Line
+	5400 4000 5300 4000
+Connection ~ 5300 5600
+Connection ~ 5300 5800
+Text Label 5300 6000 0    10   ~ 0
+GND
+Wire Wire Line
+	8400 2500 8400 2400
+Wire Wire Line
+	8400 2400 9200 2400
+Text Label 8400 2500 0    10   ~ 0
+GND
+Wire Wire Line
+	3400 2800 3400 3300
+Wire Wire Line
+	3400 3300 3400 3494
+Wire Wire Line
+	3400 3300 3400 3500
+Connection ~ 3400 3300
+Text Label 3400 2800 0    10   ~ 0
+GND
+Wire Wire Line
+	4300 4100 4300 4200
+Wire Wire Line
+	3800 4200 4300 4200
+Wire Wire Line
+	3800 4300 3800 4200
+Wire Wire Line
+	4300 4200 5400 4200
+Connection ~ 4300 4200
+Wire Wire Line
+	5100 4800 5400 4800
+Text Label 5100 4800 0    70   ~ 0
+MOSI
+Text Label 5100 4800 2    50   ~ 0
+MOSI
+Wire Wire Line
+	6600 2500 7000 2500
+Text Label 7000 2500 0    70   ~ 0
+MOSI
+Text Label 7000 2500 0    70   ~ 0
+MOSI
+Text Label 7000 2500 0    70   ~ 0
+MOSI
+Wire Wire Line
+	5400 4900 5100 4900
+Text Label 5100 4900 0    70   ~ 0
+SCK
+Text Label 5100 4900 2    50   ~ 0
+SCK
+Wire Wire Line
+	6600 2700 7000 2700
+Text Label 7000 2700 0    70   ~ 0
+SCK
+Text Label 7000 2700 0    70   ~ 0
+SCK
+Text Label 7000 2700 0    70   ~ 0
+SCK
+Text Label 7000 2700 0    70   ~ 0
+SCK
+Text Label 7000 2700 0    70   ~ 0
+SCK
+Wire Wire Line
+	5400 5000 5100 5000
+Text Label 5100 5000 0    70   ~ 0
+MISO
+Text Label 5100 5000 2    50   ~ 0
+MISO
+Wire Wire Line
+	6600 2900 7000 2900
+Text Label 7000 2900 0    70   ~ 0
+MISO
+Text Label 7000 2900 0    70   ~ 0
+MISO
+Text Label 7000 2900 0    70   ~ 0
+MISO
+Wire Wire Line
+	4300 3500 4300 3700
+Text Label 4300 3500 0    10   ~ 0
+V_BATT
+Wire Wire Line
+	5400 5700 4300 5700
+Wire Wire Line
+	4300 5600 4300 5700
+Text Label 5400 5700 0    10   ~ 0
+V_BATT
+Wire Wire Line
+	3000 1800 3000 2200
+Text Label 3000 1800 0    10   ~ 0
+V_BATT
+Wire Wire Line
+	6700 5300 7200 5300
+Text Label 7200 5300 0    70   ~ 0
+SS
+Text Label 7200 5300 0    70   ~ 0
+SS
+Wire Wire Line
+	6600 2300 7000 2300
+Text Label 7000 2300 0    70   ~ 0
+SS
+Text Label 7000 2300 0    70   ~ 0
+SS
+Text Label 7000 2300 0    70   ~ 0
+SS
+Wire Wire Line
+	5400 5200 3900 5200
+Wire Wire Line
+	3900 5200 3900 5100
+Wire Wire Line
+	6600 2100 7500 2100
+Wire Wire Line
+	7500 2000 7500 1900
+Wire Wire Line
+	7500 2100 7500 2000
+Connection ~ 7500 2000
+Text Label 6600 2100 0    10   ~ 0
+VCC
+Wire Wire Line
+	8900 2100 8900 2300
+Wire Wire Line
+	8900 2300 9200 2300
+Text Label 8900 2100 0    10   ~ 0
+VCC
+Wire Wire Line
+	6600 3100 8100 3100
+Wire Wire Line
+	8100 3100 8100 4200
+Wire Wire Line
+	6700 5800 7400 5800
+Text Label 7400 5800 0    70   ~ 0
+SDA
+Text Label 7400 5800 0    70   ~ 0
+SDA
+Wire Wire Line
+	9200 2600 8900 2600
+Text Label 8900 2600 0    70   ~ 0
+SDA
+Text Label 8900 2600 0    70   ~ 0
+SDA
+Text Label 8900 2600 0    70   ~ 0
+SDA
+Wire Wire Line
+	6700 5700 7400 5700
+Text Label 7400 5700 0    70   ~ 0
+SCL
+Text Label 7400 5700 0    70   ~ 0
+SCL
+Wire Wire Line
+	9200 2500 8900 2500
+Text Label 8900 2500 0    70   ~ 0
+SCL
+Text Label 8900 2500 0    70   ~ 0
+SCL
+Text Label 8900 2500 0    70   ~ 0
+SCL
+Wire Wire Line
+	3000 3300 3000 2800
+Wire Wire Line
+	3000 2300 3000 2800
+Wire Wire Line
+	3000 2800 3000 2600
+Connection ~ 3000 2800
+Wire Wire Line
+	9200 2700 8900 2700
+Text Label 8900 2700 0    70   ~ 0
+A1
+Text Label 8900 2700 0    70   ~ 0
+A1
+Text Label 8900 2700 0    70   ~ 0
+A1
+Wire Wire Line
+	5400 4300 5100 4300
+Text Label 5100 4300 0    70   ~ 0
+A1
+Text Label 5400 4300 0    70   ~ 0
+A1
+Text Label 5100 4300 0    70   ~ 0
+A1
+Text Label 5100 4300 0    70   ~ 0
+A1
+Wire Wire Line
+	9200 2800 8900 2800
+Text Label 8900 2800 0    70   ~ 0
+A2
+Text Label 8900 2800 0    70   ~ 0
+A2
+Text Label 8900 2800 0    70   ~ 0
+A2
+Wire Wire Line
+	5400 4400 5100 4400
+Text Label 5100 4400 0    70   ~ 0
+A2
+Text Label 5100 4400 0    70   ~ 0
+A2
+Text Label 5100 4400 0    70   ~ 0
+A2
+$Comp
+L Soil_moisture-eagle-import:R-US_0309_10 R1
+U 1 1 02EA5A8E
+P 4300 3900
+F 0 "R1" V 4450 3659 59  0000 L BNN
+F 1 "1M" V 4250 3670 59  0000 L BNN
+F 2 "Soil_moisture:0309_10" H 4300 3900 50  0001 C CNN
+F 3 "" H 4300 3900 50  0001 C CNN
+	1    4300 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:R-US_0309_10 R2
+U 1 1 B1FB762C
+P 4300 4400
+F 0 "R2" V 4450 4159 59  0000 L BNN
+F 1 "3M3" V 4250 4070 59  0000 L BNN
+F 2 "Soil_moisture:0309_10" H 4300 4400 50  0001 C CNN
+F 3 "" H 4300 4400 50  0001 C CNN
+	1    4300 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:R-US_0309_10 R3
+U 1 1 D85E66C8
+P 7700 4800
+F 0 "R3" V 7850 4859 59  0000 L BNN
+F 1 "10K" V 7650 4870 59  0000 L BNN
+F 2 "Soil_moisture:0309_10" H 7700 4800 50  0001 C CNN
+F 3 "" H 7700 4800 50  0001 C CNN
+	1    7700 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:C-US050-035X075 C1
+U 1 1 E6F55D96
+P 3800 4400
+F 0 "C1" H 3640 4425 59  0000 L BNN
+F 1 "100nF" H 3540 4235 59  0000 L BNN
+F 2 "Soil_moisture:C050-035X075" H 3800 4400 50  0001 C CNN
+F 3 "" H 3800 4400 50  0001 C CNN
+	1    3800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:SUP75N06-08 Q1
+U 1 1 C8A726E4
+P 7900 4300
+F 0 "Q1" H 7650 4700 59  0000 L BNN
+F 1 "FDP7030BL" H 7650 4500 59  0000 L BNN
+F 2 "Soil_moisture:TO220" H 7900 4300 50  0001 C CNN
+F 3 "" H 7900 4300 50  0001 C CNN
+	1    7900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:GND-BAR #SUPPLY01
+U 1 1 9679E2B3
+P 4300 4800
+F 0 "#SUPPLY01" H 4300 4800 50  0001 C CNN
+F 1 "GND" H 4300 4725 59  0000 C CNN
+F 2 "" H 4300 4800 50  0001 C CNN
+F 3 "" H 4300 4800 50  0001 C CNN
+	1    4300 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:GND-BAR #SUPPLY02
+U 1 1 7BA96561
+P 8100 5200
+F 0 "#SUPPLY02" H 8100 5200 50  0001 C CNN
+F 1 "GND" H 8100 5125 59  0000 C CNN
+F 2 "" H 8100 5200 50  0001 C CNN
+F 3 "" H 8100 5200 50  0001 C CNN
+	1    8100 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:RS_MINI_ULTRA_PRO_V2 U1
+U 1 1 70C280EF
+P 6400 5000
+F 0 "U1" H 5900 6100 42  0000 L BNN
+F 1 "RS_MINI_ULTRA_PRO_V2" H 5900 4000 42  0000 L BNN
+F 2 "Soil_moisture:RS_MINI_ULTRA_PRO_V2" H 6400 5000 50  0001 C CNN
+F 3 "" H 6400 5000 50  0001 C CNN
+	1    6400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:GND-BAR #SUPPLY03
+U 1 1 960C46E6
+P 5300 6100
+F 0 "#SUPPLY03" H 5300 6100 50  0001 C CNN
+F 1 "GND" H 5300 6025 59  0000 C CNN
+F 2 "" H 5300 6100 50  0001 C CNN
+F 3 "" H 5300 6100 50  0001 C CNN
+	1    5300 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:VCC-CIRCLE #3V03
+U 1 1 09A2DF27
+P 3900 5000
+F 0 "#3V03" H 3900 5000 50  0001 C CNN
+F 1 "3V3" H 3900 5175 59  0000 C CNN
+F 2 "" H 3900 5000 50  0001 C CNN
+F 3 "" H 3900 5000 50  0001 C CNN
+	1    3900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:V_BATT #SUPPLY06
+U 1 1 137BDED3
+P 4300 5600
+F 0 "#SUPPLY06" H 4300 5600 50  0001 C CNN
+F 1 "V_BATT" H 4300 5710 59  0000 C BNN
+F 2 "" H 4300 5600 50  0001 C CNN
+F 3 "" H 4300 5600 50  0001 C CNN
+	1    4300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:V_BATT #SUPPLY04
+U 1 1 0A61E534
+P 4300 3500
+F 0 "#SUPPLY04" H 4300 3500 50  0001 C CNN
+F 1 "V_BATT" H 4300 3610 59  0000 C BNN
+F 2 "" H 4300 3500 50  0001 C CNN
+F 3 "" H 4300 3500 50  0001 C CNN
+	1    4300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:FRAME-LETTER FRAME1
+U 1 1 7D0788B5
+P 1100 8000
+F 0 "FRAME1" H 1100 8000 50  0001 C CNN
+F 1 "FRAME-LETTER" H 1100 8000 50  0001 C CNN
+F 2 "Soil_moisture:CREATIVE_COMMONS" H 1100 8000 50  0001 C CNN
+F 3 "" H 1100 8000 50  0001 C CNN
+	1    1100 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:FRAME-LETTER FRAME1
+U 2 1 7D0788B9
+P 6900 8000
+F 0 "FRAME1" H 6900 8000 50  0001 C CNN
+F 1 "FRAME-LETTER" H 6900 8000 50  0001 C CNN
+F 2 "Soil_moisture:CREATIVE_COMMONS" H 6900 8000 50  0001 C CNN
+F 3 "" H 6900 8000 50  0001 C CNN
+	2    6900 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:VCC-CIRCLE #3V01
+U 1 1 A41995A2
+P 7500 1900
+F 0 "#3V01" H 7500 1900 50  0001 C CNN
+F 1 "3V3" H 7500 2075 59  0000 C CNN
+F 2 "" H 7500 1900 50  0001 C CNN
+F 3 "" H 7500 1900 50  0001 C CNN
+	1    7500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:SD_BREAKOUT_EBAY U2
+U 1 1 455EE6D3
+P 7400 2800
+F 0 "U2" H 5850 3610 42  0000 L BNN
+F 1 "SD_BREAKOUT_EBAY" H 5860 2320 42  0000 L BNN
+F 2 "Soil_moisture:SD_BREAKOUT_EBAY" H 7400 2800 50  0001 C CNN
+F 3 "" H 7400 2800 50  0001 C CNN
+	1    7400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:BATTERY-AA_KIT BT1
+U 1 1 F95A8982
+P 3200 2800
+F 0 "BT1" H 3200 2970 70  0000 C BNN
+F 1 "BATTERY-AA_KIT" H 3200 2630 70  0000 C TNN
+F 2 "Soil_moisture:BATTERY-AA-KIT" H 3200 2800 50  0001 C CNN
+F 3 "" H 3200 2800 50  0001 C CNN
+	1    3200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:BATTERY-AA_KIT BT2
+U 1 1 97F002E7
+P 3200 3300
+F 0 "BT2" H 3200 3470 70  0000 C BNN
+F 1 "BATTERY-AA_KIT" H 3200 3130 70  0000 C TNN
+F 2 "Soil_moisture:BATTERY-AA-KIT" H 3200 3300 50  0001 C CNN
+F 3 "" H 3200 3300 50  0001 C CNN
+	1    3200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:V_BATT #SUPPLY05
+U 1 1 64E24A77
+P 3000 1800
+F 0 "#SUPPLY05" H 3000 1800 50  0001 C CNN
+F 1 "V_BATT" H 3000 1910 59  0000 C BNN
+F 2 "" H 3000 1800 50  0001 C CNN
+F 3 "" H 3000 1800 50  0001 C CNN
+	1    3000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:PPTC021LFBN-RC BAT_GND1
+U 1 1 A63FF0F9
+P 3000 2200
+F 0 "BAT_GND1" H 3164 2409 69  0001 L BNN
+F 1 "PPTC021LFBN-RC" H 2620 1910 50  0001 L BNN
+F 2 "Soil_moisture:CONN2_LFBN-RC_SUL" H 3000 2200 50  0001 C CNN
+F 3 "" H 3000 2200 50  0001 C CNN
+	1    3000 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:GND-BAR #SUPPLY07
+U 1 1 BCA312D3
+P 3400 3600
+F 0 "#SUPPLY07" H 3400 3600 50  0001 C CNN
+F 1 "GND" H 3400 3525 59  0000 C CNN
+F 2 "" H 3400 3600 50  0001 C CNN
+F 3 "" H 3400 3600 50  0001 C CNN
+	1    3400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:1725698 J1
+U 1 1 92202B0B
+P 9200 2300
+F 0 "J1" H 9364 2509 69  0000 L BNN
+F 1 "1725698" H 9200 2300 50  0001 C CNN
+F 2 "Soil_moisture:CONN_1725698_PXC" H 9200 2300 50  0001 C CNN
+F 3 "" H 9200 2300 50  0001 C CNN
+	1    9200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:VCC-CIRCLE #3V04
+U 1 1 AF79584F
+P 8900 2000
+F 0 "#3V04" H 8900 2000 50  0001 C CNN
+F 1 "3V3" H 8900 2175 59  0000 C CNN
+F 2 "" H 8900 2000 50  0001 C CNN
+F 3 "" H 8900 2000 50  0001 C CNN
+	1    8900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Soil_moisture-eagle-import:GND-BAR #SUPPLY09
+U 1 1 C7AEE5DE
+P 8400 2600
+F 0 "#SUPPLY09" H 8400 2600 50  0001 C CNN
+F 1 "GND" H 8400 2525 59  0000 C CNN
+F 2 "" H 8400 2600 50  0001 C CNN
+F 3 "" H 8400 2600 50  0001 C CNN
+	1    8400 2600
+	1    0    0    -1  
+$EndComp
+Text Notes 7700 7600 0    100  ~ 0
+James Gallagher / HAST
+Text Notes 10500 7700 0    100  ~ 0
+0.4
+Text GLabel 5400 5300 0    10   BiDi ~ 0
+VBUS
+Text GLabel 5400 5400 0    10   BiDi ~ 0
+5V
+Text GLabel 5400 5500 0    10   BiDi ~ 0
+VIN
+$EndSCHEMATC
