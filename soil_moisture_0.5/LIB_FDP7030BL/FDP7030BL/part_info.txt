@@ -1,0 +1,9 @@
+Manufacturer=ON Semiconductor
+PartNumber=FDP7030BL
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Transistor Outline, Vertical
+PinCount=3
+Version=2.2
+Released=2020-04-09 06:58:33
+Downloaded=2020-09-01 06:02:43
+3D=Y

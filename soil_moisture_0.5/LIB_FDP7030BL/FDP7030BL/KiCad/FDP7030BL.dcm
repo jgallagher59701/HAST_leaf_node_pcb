@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDP7030BL
+D Trans MOSFET N-CH 30V 60A 3-Pin TO-220
+K
+F https://www.mouser.de/datasheet/2/308/FDP7030BL-1305790.pdf
+$ENDCMP
+#
+#End Doc Library

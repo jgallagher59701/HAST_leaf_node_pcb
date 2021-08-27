@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RS_MINI_ULTRA_PRO_V3
+D RocketScream Mini Ultra Pro v3 
+K MCU ATSAMD21G18 Arduino
+F https://www.rocketscream.com/blog/product/mini-ultra-pro-v3-with-radio/
+$ENDCMP
+#
+#End Doc Library

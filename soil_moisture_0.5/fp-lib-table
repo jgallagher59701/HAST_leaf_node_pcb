@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name LIB_FDP7030BL)(type KiCad)(uri ${KIPRJMOD}/LIB_FDP7030BL)(options "")(descr ""))
+  (lib (name soil_moisture)(type KiCad)(uri /Users/jimg/src/opendap/HAST_leaf_node_pcb/soil_moisture_0.5/soil_moisture.pretty)(options "")(descr ""))
+  (lib (name FDP7030BL)(type Legacy)(uri ${KIPRJMOD}/LIB_FDP7030BL/FDP7030BL/KiCad/FDP7030BL.mod)(options "")(descr ""))
+)
