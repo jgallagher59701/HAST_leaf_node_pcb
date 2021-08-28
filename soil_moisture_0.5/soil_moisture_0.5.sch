@@ -4,14 +4,14 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "HAST Leaf node"
 Date "2021-08-22"
-Rev ""
-Comp ""
+Rev "0.5"
+Comp "OPeNDAP"
 Comment1 ""
-Comment2 "https://creativecommons.org/licenses/by/4.0/"
-Comment3 "CC BY 4.0"
-Comment4 "James Gallagher"
+Comment2 "creativecommons.org/licenses/by/4.0/"
+Comment3 "License: CC BY 4.0"
+Comment4 "Author: James Gallagher"
 $EndDescr
 $Comp
 L Soil_moisture-eagle-import:RS_MINI_ULTRA_PRO_V3 U1
@@ -36,7 +36,7 @@ F 3 "" H 9300 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FDP7030BL:FDP7030BL Q1
+L soil_moisture_0.5-rescue:FDP7030BL-FDP7030BL Q1
 U 1 1 6122D427
 P 8200 3500
 F 0 "Q1" H 8630 3646 50  0000 L CNN
@@ -149,9 +149,6 @@ F 3 "" H 2550 4200 50  0001 C CNN
 	1    2550 4200
 	1    0    0    -1  
 $EndComp
-Connection ~ 2550 3950
-Wire Wire Line
-	2550 3950 2550 4200
 Wire Wire Line
 	5700 4100 6000 4100
 $Comp
@@ -262,12 +259,12 @@ Text GLabel 4650 5450 0    50   Input ~ 0
 $Comp
 L power:GND #PWR04
 U 1 1 61255F5F
-P 4350 6100
-F 0 "#PWR04" H 4350 5850 50  0001 C CNN
-F 1 "GND" H 4355 5927 50  0000 C CNN
-F 2 "" H 4350 6100 50  0001 C CNN
-F 3 "" H 4350 6100 50  0001 C CNN
-	1    4350 6100
+P 4200 6100
+F 0 "#PWR04" H 4200 5850 50  0001 C CNN
+F 1 "GND" H 4205 5927 50  0000 C CNN
+F 2 "" H 4200 6100 50  0001 C CNN
+F 3 "" H 4200 6100 50  0001 C CNN
+	1    4200 6100
 	1    0    0    -1  
 $EndComp
 Text GLabel 4650 5650 0    50   Output ~ 0
@@ -277,13 +274,9 @@ SDA
 Wire Wire Line
 	4650 5450 5100 5450
 Wire Wire Line
-	4350 5550 5100 5550
-Wire Wire Line
 	4650 5650 5100 5650
 Wire Wire Line
 	4650 5750 5100 5750
-Wire Wire Line
-	4350 5550 4350 6100
 Text GLabel 8900 2450 2    50   Input ~ 0
 MOSI
 Text GLabel 8900 2650 2    50   Input ~ 0
@@ -327,14 +320,6 @@ Wire Notes Line
 	1550 4750 1550 1450
 Wire Notes Line
 	1550 1450 3100 1450
-Wire Notes Line
-	6050 4950 6050 6550
-Wire Notes Line
-	6050 6550 3800 6550
-Wire Notes Line
-	3800 6550 3800 4950
-Wire Notes Line
-	3800 4950 6050 4950
 Text Notes 4250 5200 0    100  ~ 0
 Sensor connector
 Text Notes 2050 1650 0    100  ~ 0
@@ -344,7 +329,6 @@ RockerScream MCU
 Text Notes 7700 1700 0    100  ~ 0
 SD Card Socket
 NoConn ~ 4400 2400
-NoConn ~ 4400 2500
 NoConn ~ 4400 2600
 NoConn ~ 4400 2700
 NoConn ~ 4400 2800
@@ -355,8 +339,6 @@ NoConn ~ 4400 3600
 NoConn ~ 4400 3700
 NoConn ~ 4400 3800
 NoConn ~ 5700 3900
-NoConn ~ 5700 3800
-NoConn ~ 5700 3700
 NoConn ~ 5700 2300
 NoConn ~ 5700 2400
 NoConn ~ 5700 2500
@@ -368,9 +350,6 @@ NoConn ~ 5700 3000
 NoConn ~ 5700 3100
 NoConn ~ 5700 3200
 NoConn ~ 5700 3300
-NoConn ~ 5700 3400
-NoConn ~ 5100 5850
-NoConn ~ 5100 5950
 Wire Wire Line
 	8500 3050 8500 3100
 NoConn ~ -800 -150
@@ -390,4 +369,71 @@ Wire Wire Line
 Wire Wire Line
 	3850 2300 4400 2300
 Connection ~ 3850 2300
+Wire Wire Line
+	2550 4200 2550 3950
+Connection ~ 2550 3950
+Text GLabel 4150 2500 0    50   Output ~ 0
+A0
+Wire Wire Line
+	4650 5850 5100 5850
+Wire Wire Line
+	4150 2500 4400 2500
+Text GLabel 6000 3700 2    50   BiDi ~ 0
+GPIO11
+Text GLabel 4650 5950 0    50   BiDi ~ 0
+GPIO12
+Wire Wire Line
+	4200 5550 5100 5550
+NoConn ~ 5700 3400
+Wire Wire Line
+	5700 3700 6000 3700
+Text GLabel 6000 3800 2    50   BiDi ~ 0
+GPIO12
+Wire Wire Line
+	5700 3800 6000 3800
+Text GLabel 4650 5850 0    50   BiDi ~ 0
+GPIO11
+$Comp
+L Jumper:SolderJumper_2_Bridged JP1
+U 1 1 612BAFC9
+P 4850 5950
+F 0 "JP1" H 4850 6050 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 4850 5850 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 4850 5950 50  0001 C CNN
+F 3 "~" H 4850 5950 50  0001 C CNN
+	1    4850 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 612BBB31
+P 4850 6150
+F 0 "JP2" H 4850 6250 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 4850 6050 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4850 6150 50  0001 C CNN
+F 3 "~" H 4850 6150 50  0001 C CNN
+	1    4850 6150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4650 6150 0    50   Input ~ 0
+A0
+Wire Wire Line
+	5000 5950 5100 5950
+Wire Wire Line
+	4200 5550 4200 6100
+Wire Wire Line
+	5000 6150 5000 5950
+Connection ~ 5000 5950
+Wire Wire Line
+	4650 5950 4700 5950
+Wire Wire Line
+	4700 6150 4650 6150
+Wire Notes Line
+	3650 4900 5950 4900
+Wire Notes Line
+	5950 4900 5950 6500
+Wire Notes Line
+	5950 6500 3650 6500
+Wire Notes Line
+	3650 6500 3650 4900
 $EndSCHEMATC
