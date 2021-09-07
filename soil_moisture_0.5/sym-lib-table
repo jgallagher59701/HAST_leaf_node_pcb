@@ -2,4 +2,5 @@
   (lib (name FDP7030BL)(type Legacy)(uri ${KIPRJMOD}/LIB_FDP7030BL/FDP7030BL/KiCad/FDP7030BL.lib)(options "")(descr "N-Channel Logic Level Enhancement Mode Field Effect Transistor"))
   (lib (name Soil_moisture-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Soil_moisture-eagle-import.lib)(options "")(descr ""))
   (lib (name soil_moisture_0.5-rescue)(type Legacy)(uri ${KIPRJMOD}/soil_moisture_0.5-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name 2021-09-06_19-10-58)(type Legacy)(uri ${KIPRJMOD}/ul_C322C104K5R5TA/KiCAD/2021-09-06_19-10-58/2021-09-06_19-10-58.lib)(options "")(descr ""))
 )

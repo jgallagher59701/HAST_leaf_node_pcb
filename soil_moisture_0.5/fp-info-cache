@@ -1,4 +1,4 @@
-19955430556710678
+19957061533769790
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -86190,6 +86190,13 @@ Zigbee_Module_MRF24J40MD
 0
 12
 12
+footprints
+C322C104K5R5TA
+
+
+0
+2
+2
 soil_moisture
 0309_10
 <b>RESISTOR</b><p>
