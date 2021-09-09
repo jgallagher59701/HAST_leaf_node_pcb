@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/jimg/src/opendap/HAST_leaf_node_pcb/soil_moisture_0.5/soil_moisture_0.5.sch)
-    (date "Monday, 06 September 2021 at 13:36:00")
+    (date "Monday, 06 September 2021 at 20:19:21")
     (tool "Eeschema (5.1.10-1-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -123,7 +123,21 @@
       (datasheet ~)
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
-      (tstamp 6136E0C1)))
+      (tstamp 6136E0C1))
+    (comp (ref H1)
+      (value MountingHole)
+      (footprint MountingHole:MountingHole_4.3mm_M4)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 6136F68B))
+    (comp (ref H2)
+      (value MountingHole)
+      (footprint MountingHole:MountingHole_4.3mm_M4)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 6136F898)))
   (libparts
     (libpart (lib Device) (part C)
       (description "Unpolarized capacitor")
@@ -169,6 +183,14 @@
       (pins
         (pin (num 1) (name A) (type passive))
         (pin (num 2) (name B) (type passive))))
+    (libpart (lib Mechanical) (part MountingHole)
+      (description "Mounting Hole without connection")
+      (docs ~)
+      (footprints
+        (fp MountingHole*))
+      (fields
+        (field (name Reference) H)
+        (field (name Value) MountingHole)))
     (libpart (lib Soil_moisture-eagle-import) (part 1725698)
       (fields
         (field (name Reference) J)
@@ -273,6 +295,8 @@
       (uri "/Library/Application Support/kicad/library/Device.lib"))
     (library (logical Jumper)
       (uri "/Library/Application Support/kicad/library/Jumper.lib"))
+    (library (logical Mechanical)
+      (uri "/Library/Application Support/kicad/library/Mechanical.lib"))
     (library (logical Soil_moisture-eagle-import)
       (uri /Users/jimg/src/opendap/HAST_leaf_node_pcb/soil_moisture_0.5/Soil_moisture-eagle-import.lib))
     (library (logical soil_moisture_0.5-rescue)
