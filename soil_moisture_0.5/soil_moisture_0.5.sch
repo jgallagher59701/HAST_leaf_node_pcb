@@ -36,7 +36,7 @@ F 3 "" H 9300 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L soil_moisture_0.5-rescue:FDP7030BL-FDP7030BL Q1
+L soil_moisture_0.5-rescue:FDP7030BL-FDP7030BL-soil_moisture_0.5-rescue Q1
 U 1 1 6122D427
 P 8200 3500
 F 0 "Q1" H 8630 3646 50  0000 L CNN

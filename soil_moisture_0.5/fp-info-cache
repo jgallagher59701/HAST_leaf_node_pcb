@@ -87972,18 +87972,23 @@ soil_moisture
 0309_10
 <b>RESISTOR</b><p>
 type 0309, grid 10mm
-
+0
 0
 2
 2
 soil_moisture
 BATTERY-AA-KIT
-<h3>AA Battery Clips (KIT Variant)</h3><p>PCB mount clips properly spaced to hold a AA battery</p><p><b>Warning:</b> This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</p><p><a href="http://cdn.sparkfun.com/datasheets/Prototyping/M60-2p9.pdf">Datasheet</a></p><h4>Devices Using</h4><ul><li>BATTERY</li></ul>
+<h3>AA Battery Clips (KIT Variant)</h3>
+0
+0
+0
+<h4>Devices Using</h4>
+<ul><li>BATTERY</li></ul>
 
 0
 4
 4
-soil_moisture
+0
 C050-035X075
 <b>CAPACITOR</b><p>
 grid 5 mm, outline 3.5 x 7.5 mm
@@ -88009,31 +88014,27 @@ soil_moisture
 CREATIVE_COMMONS
 <h3>Creative Commons License Template</h3>
 <p>CC BY-SA 4.0 License with <a href="https://creativecommons.org/licenses/by-sa/4.0/">link to license</a> and placeholder for designer name.</p>
-<p>Devices using:
-<ul><li>FRAME_LEDGER</li>
-<li>FRAME_LETTER</li></ul></p>
+0
+0
+0
 
 0
 0
 0
-soil_moisture
-RS_MINI_ULTRA_PRO_V2
-
+0
+0
+0
 
 0
 38
 38
-soil_moisture
-SD_BREAKOUT_EBAY
-
+0
+0
+0
 
 0
 6
 6
-soil_moisture
-TO220
-<b>TO 220 horizontal</b>
-
 0
-3
-3
+0
+0

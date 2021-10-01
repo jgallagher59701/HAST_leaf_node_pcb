@@ -500,4 +500,26 @@ Wire Wire Line
 	3450 2450 3450 2600
 Wire Wire Line
 	4400 2600 3450 2600
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6136F68B
+P 6600 5250
+F 0 "H1" H 6700 5296 50  0000 L CNN
+F 1 "MountingHole" H 6700 5205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 6600 5250 50  0001 C CNN
+F 3 "~" H 6600 5250 50  0001 C CNN
+	1    6600 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6136F898
+P 6600 5500
+F 0 "H2" H 6700 5546 50  0000 L CNN
+F 1 "MountingHole" H 6700 5455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 6600 5500 50  0001 C CNN
+F 3 "~" H 6600 5500 50  0001 C CNN
+	1    6600 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

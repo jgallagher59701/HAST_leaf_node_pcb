@@ -263,11 +263,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# soil_moisture_0.5-rescue_FDP7030BL-FDP7030BL
+# soil_moisture_0.5-rescue_FDP7030BL-FDP7030BL-soil_moisture_0.5-rescue
 #
-DEF soil_moisture_0.5-rescue_FDP7030BL-FDP7030BL Q 0 30 Y Y 1 F N
+DEF soil_moisture_0.5-rescue_FDP7030BL-FDP7030BL-soil_moisture_0.5-rescue Q 0 30 Y Y 1 F N
 F0 "Q" 450 150 50 H V L CNN
-F1 "soil_moisture_0.5-rescue_FDP7030BL-FDP7030BL" 450 50 50 H V L CNN
+F1 "soil_moisture_0.5-rescue_FDP7030BL-FDP7030BL-soil_moisture_0.5-rescue" 450 50 50 H V L CNN
 F2 "TO254P470X1016X2019-3P" 450 -50 50 H I L CNN
 F3 "https://www.mouser.de/datasheet/2/308/FDP7030BL-1305790.pdf" 450 -150 50 H I L CNN
 F4 "Trans MOSFET N-CH 30V 60A 3-Pin TO-220" 450 -250 50 H I L CNN "Description"
