@@ -1,7 +1,6 @@
 # HAST leaf node pcb files
-These are the files for the HAST leaf node. Use Eagle CAD 9.3 or later.
 
-In the direcctory KiCAD-5 is an import of the Eagle CAD files from 3/9/21 for KiCAD 5.
+The first PCB used EagleCAD, but I've switched to KiCAD. Version 0.5 is the current version of the PCB in used as of Nov. 2021.
 
 Supportted by a grant from ESIP.
 
